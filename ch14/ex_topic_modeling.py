@@ -4,15 +4,6 @@ from gensim.utils import simple_preprocess
 
 from konlpy.tag import Okt
 
-# from wordcloud import WordCloud
-# import matplotlib.pyplot as plt
-# from collections import Counter
-
-
-# import pyLDAvis
-# import pyLDAvis.gensim_models as gensimvis
-
-
 documents = [
     "주식 시장이 금리 인상 소식에 하락했습니다.",
     "중앙은행은 내년에도 금리를 올릴 가능성이 높다고 발표했습니다.",
